@@ -1,0 +1,155 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Arial';
+}
+
+body {
+    background:#ccc;
+    margin:15px;
+}
+/*============ header =================== */
+.logo {
+    text-align:center;
+}
+
+.navbar {
+    background: #fff;
+    width:100%;
+    padding:15px;
+    margin:5px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar ul li a {
+    color:#000;
+    text-decoration:none;
+    padding:10px;
+    margin:12px;
+}
+.navbar ul li {
+    display:inline-block;
+    list-style-type:none;
+}
+
+
+.search input {
+    border:none;
+    outline:none;
+    margin:10px;
+}
+.search button {
+    border:none;
+    background:#fff;
+    cursor:pointer;
+}
+
+
+/* ================ end header ==============  */
+/*================== start img-city ========  */
+.img-city {
+    background:#fff;
+    width:100%;
+    height:25rem;
+    margin:5px;
+    margin-bottom:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.img-city img {
+    width:95%;
+    height:95%;
+}
+/* ================ end img-city ==============  */
+.cards {
+    margin:5px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:20px;
+
+}
+.card {
+    background:#fff;
+    width:18.8rem;
+    padding:10px;
+    margin-bottom:10px;
+    display:inline-block;
+}
+.card img {
+    width:100%;
+    height:10rem;
+}
+
+.more {
+    text-align:right;
+}
+
+.more a {
+    color:black;
+}
+
+.welcome {
+    width:100%;
+    margin:5px;
+    background:#fff;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:20px;
+
+}
+
+.welcome-img {
+    width:25%;
+    padding:10px;
+
+}
+
+.welcome-text {
+    width:75%;
+    padding:10px;
+    display:inline-block;
+
+}
+
+.welcome-img img{
+    width:45%;
+    height:5rem;
+    display:inline-block;
+    margin-left:10px;
+}
+
+footer {
+    width:100%;
+    background: #fff;
+    margin:5px;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+}
+
+footer span {
+    margin:10px;
+}
+
+/* @media screen and (max-width:1086px) {
+    .welcome-img {
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .welcome-img img{
+        width:20%;
+
+    }
+} */
